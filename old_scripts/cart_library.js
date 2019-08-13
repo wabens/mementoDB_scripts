@@ -4,7 +4,6 @@
 // Phase: Before saving an entry
 var pallet = entry().field("pallet");
 var palletEntries = libByName("Pallet").entries(); 
-
 //getting current dateTime
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
